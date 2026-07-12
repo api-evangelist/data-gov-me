@@ -40,6 +40,8 @@ apis:
       - type: x-ckan-version
         value: '2.11.0'
 common:
+  - type: DomainSecurity
+    url: security/data-gov-me-domain-security.yml
   - type: Website
     url: https://data.gov.me
   - type: Documentation
@@ -52,6 +54,8 @@ common:
     url: finops/data-gov-me-finops.yml
   - type: Review
     url: review.yml
+  - url: https://data.gov.me/blog
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
